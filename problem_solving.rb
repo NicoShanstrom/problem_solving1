@@ -21,6 +21,5 @@ def current_time = (14)
    else current time 
     p "What planet are you on?"
    end
-   
-end
-current_time
+
+   current_time
