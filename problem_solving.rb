@@ -7,7 +7,7 @@ p steps_to_plant_a_tree.length.even?
 #Are there any steps you would add or modify?
     # Take a break if you are struggling. Being frustrated and in a rush does not help.
 
-def current_time = 14
+def current_time
    if current_time (4..11)
     p "Good morning"
    elsif current_time (12..16)
