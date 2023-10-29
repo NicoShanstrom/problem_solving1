@@ -7,7 +7,20 @@ p steps_to_plant_a_tree.length.even?
 #Are there any steps you would add or modify?
     # Take a break if you are struggling. Being frustrated and in a rush does not help.
 
-def current_time = 14
-   p "Good afternoon"
+def current_time = (14)
+   if current_time (4..11)
+    p "Good morning"
+   elsif current_time (12..16)
+    p "Good afternoon"
+   elsif current_time (17..20)
+    p "Good evening"
+   elsif current_time (21..24)
+    p "Good night"
+   elsif current_time (0..3)
+    p "Night owl"
+   else current time 
+    p "What planet are you on?"
+   end
+   
 end
 current_time
