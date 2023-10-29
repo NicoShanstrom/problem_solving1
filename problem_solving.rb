@@ -6,6 +6,7 @@ p steps_to_plant_a_tree.length.even?
     #It could be more challenging if one does not break down the process into basic pieces, it may be hard to google a long block of information. If you are not specific, you'll get too much information.
 #Are there any steps you would add or modify?
     # Take a break if you are struggling. Being frustrated and in a rush does not help.
+number_to_phone('5551234567')
 
 def current_time = "14"
    if current_time (4..11)
@@ -20,6 +21,8 @@ def current_time = "14"
     p "Night owl"
    else current time 
     p "What planet are you on?"
-   end'
+   end
 
    current_time
+
+   
