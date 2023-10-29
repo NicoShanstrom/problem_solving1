@@ -10,4 +10,4 @@ p steps_to_plant_a_tree.length.even?
 def current_time = 14
     "Good afternoon"
 end
-current_time
+p current_time
