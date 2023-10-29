@@ -28,5 +28,9 @@ def current_time = "14"
    def create_phone_number(5551234567):
     return "({}{}{}) {}{}{}-{}{}{}{}".format(*5551234567)
    end
-
+   
+   def phone_numbers(arr)
+    arr.join('').insert(-4, '-').insert(-8, '-')
+  end 
+  puts phone_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) 
    
