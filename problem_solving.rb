@@ -8,22 +8,28 @@ p steps_to_plant_a_tree.length.even?
     # Take a break if you are struggling. Being frustrated and in a rush does not help.
 
 
-def current_time = "14"
-   if current_time (4..11)
+def greeting(current_time)
+   if (4..11).include?(current_time)
     p "Good morning"
-   elsif current_time (12..16)
+   elsif (12..16).include?(current_time)
     p "Good afternoon"
-   elsif current_time (17..20)
+   elsif (17..20).include?(current_time)
     p "Good evening"
-   elsif current_time (21..24)
+   elsif (21..24).include?(current_time)
     p "Good night"
-   elsif current_time (0..3)
+   elsif (0..3).include?(current_time)
     p "Night owl"
-   else current time 
+   else 
     p "What planet are you on?"
    end
+end
 
-   current_time
+current_time(5)
+current_time(13)
+current_time(18)
+current_time(22)
+current_time(1)
+current_time("Wolf")
 
    def create_phone_number(5551234567):
     return "({}{}{}) {}{}{}-{}{}{}{}".format(*5551234567)
