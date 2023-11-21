@@ -1,3 +1,5 @@
+require 'pry'
+
 steps_to_plant_a_tree = ["Dig a hole", "plant tree", "water"]
 p steps_to_plant_a_tree.length.even?
 #What do you like about this process?
@@ -24,19 +26,20 @@ def greeting(current_time)
    end
 end
 
-current_time(5)
-current_time(13)
-current_time(18)
-current_time(22)
-current_time(1)
-current_time("Wolf")
+greeting(5)
+greeting(13)
+greeting(18)
+greeting(22)
+greeting(1)
+greeting("Wolf")
 
-   def create_phone_number(5551234567):
-    return "({}{}{}) {}{}{}-{}{}{}{}".format(*5551234567)
-   end
-   
-   def phone_numbers(arr)
-    arr.join('').insert(-4, '-').insert(-8, '-')
-  end 
-  puts phone_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) 
+
+def format_phone_number(bar)
+    baz = bar.digits.reverse
+    p "(#{baz[0..2].join}) #{baz[3..5].join} - #{baz[6..9].join}"
+    # binding.pry
+end 
+
+foo = rand(100000000..9999999999)
+format_phone_number(foo)
    
